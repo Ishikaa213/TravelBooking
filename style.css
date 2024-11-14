@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+background-image: url(tower-bridge.png);
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+position: relative;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 30px;
+}
+nav .middle {
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+
+nav .right button{
+    gap: 20%;
+    padding: 10px 25px;
+}
+.right .reg{
+    margin-right: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+}
+.right .sign{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.content{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.content h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.content h2{
+    font-size: 45px;
+    font-weight: 100;
+}
+.content h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.select{
+    height: 10%;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+   display: flex;
+   gap: 5%;
+   border-radius: 10px;
+}
+.select h3{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.black{
+    width: 55%;
+    margin-left: 10%;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.black h3{
+    margin-top: 5%;
+}
+.from-to{
+    height: 30%;
+    width: 95%;
+    background-color: whitesmoke;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: flex;
+
+}
+.from-to p{
+    height: 10%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(163, 147, 147);
+}
+.place{
+    position: absolute;
+    height: 17%;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 4%;
+    border: 1px solid rgb(151, 127, 127);
+    display: flex;
+}
+.place h5{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.place h1{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.place p{
+    position: absolute;
+    margin-top: 55px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.place h3{
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.place h2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 57%;
+}
+.place h6{
+    position: absolute;
+    margin-top: 7%;
+    font-size: 15px;
+    margin-left: 57%;
+    font-weight: 100;
+}
+.date{
+        position: absolute;
+        height: 17%;
+        width: 40%;
+        margin-left: 52%;
+        margin-top: 4%;
+        border: 1px solid rgb(147, 134, 134);
+        display: flex;
+}
+.date h5{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.date h1{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.date h6{
+    margin-left: 40%;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.date h2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 56%;
+    font-size: 25px;
+}
